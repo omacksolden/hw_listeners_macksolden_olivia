@@ -6,7 +6,11 @@
     margin-top: 25px;
 }
 
-h1, p, ul, li, input {
+h1,
+p,
+ul,
+li,
+input {
     font-family: Georgia;
 }
 
@@ -38,8 +42,15 @@ img {
     display: block;
     margin: auto;
 }
+
 article {
     padding: 25px;
+}
+
+section {
+    text-align: center;
+    font-family: georgia;
+    padding-top: 10px;
 }
 
 .teal {
