@@ -1,0 +1,43 @@
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: #ebe7e0;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+h1, p, ul, li, input {
+    font-family: Georgia;
+}
+
+#heading {
+    text-align: center;
+}
+
+#searchtext {
+    text-align: center;
+}
+
+#search {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+#submit {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+img {
+    padding-top: 25px;
+    display: block;
+    margin: auto;
+}
+article {
+    padding: 25px;
+}
