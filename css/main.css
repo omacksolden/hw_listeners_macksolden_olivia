@@ -1,3 +1,13 @@
 body {
     background-color: lightblue;
 }
+
+.container {
+    width: 500px;
+    margin: auto;
+		background-color: white;
+}
+
+#submit {
+    display: block;
+}

@@ -2,14 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Form</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="container">
+        <form>
+            <p>First Name:</p>
+            <input type="text" id="firstname" name="firstname"/>
+            <p>Last Name:</p>
+            <input type="text" id="lastname" name="lastname"/>
+            <p>Email:</p>
+            <input type="text" id="email" name="email"/>
+            <p>Message</p>
+            <textarea id="message" name="message"></textarea>
 
+            <input type="submit" name="submit" id="submit" value="Submit" />
+        </form>
+    </div>
 
 
     <script src="js/main.js"></script>
